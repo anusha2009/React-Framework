@@ -1,6 +1,6 @@
 # React-Framework
 
-WIP 
+This is a delivery fee calculator. 
 
 # Getting Started with Create React App
 
