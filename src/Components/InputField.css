@@ -1,0 +1,63 @@
+
+/* Form container */
+div {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+
+ /* Heading */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    padding: 10px; 
+    border: 2px solid #100e0e; 
+    border-radius: 8px; 
+  }
+
+
+  /* Labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  /* Input fields */
+  input,
+  button,
+  input[type="datetime-local"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+  }
+  
+  /* Calculate button */
+  button {
+    background-color: #357baa;
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+  .error-message {
+    color: red;
+    margin-top: 5px;
+  }
+  
